@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection Solver", "Intersection Solver\Intersection Solver.csproj", "{138D6A57-A1EB-4534-A38D-C717DD791241}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{4D39118B-5F59-44E0-A2AE-332C6C69F3B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryTests", "GeometryTests\GeometryTests.csproj", "{00F0B63C-0C09-42B5-A9E6-B0FCDF6AF9AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{138D6A57-A1EB-4534-A38D-C717DD791241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{138D6A57-A1EB-4534-A38D-C717DD791241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{138D6A57-A1EB-4534-A38D-C717DD791241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D39118B-5F59-44E0-A2AE-332C6C69F3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D39118B-5F59-44E0-A2AE-332C6C69F3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D39118B-5F59-44E0-A2AE-332C6C69F3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D39118B-5F59-44E0-A2AE-332C6C69F3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F0B63C-0C09-42B5-A9E6-B0FCDF6AF9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F0B63C-0C09-42B5-A9E6-B0FCDF6AF9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F0B63C-0C09-42B5-A9E6-B0FCDF6AF9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F0B63C-0C09-42B5-A9E6-B0FCDF6AF9AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

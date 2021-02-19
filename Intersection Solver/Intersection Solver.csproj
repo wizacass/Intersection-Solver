@@ -6,4 +6,8 @@
         <RootNamespace>Intersection_Solver</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Geometry\Geometry.csproj" />
+    </ItemGroup>
+
 </Project>
