@@ -4,8 +4,8 @@ namespace Geometry
 {
     public class Point: IEquatable<Point>
     {
-        public int X { get; }
-        public int Y { get; }
+        public float X { get; }
+        public float Y { get; }
 
         public Point(int x, int y)
         {
@@ -20,7 +20,8 @@ namespace Geometry
 
         public bool Equals(Point other)
         {
-            return X == other.X && Y == other.Y;
+            if (other == null) return false;
+            return X.Equals(other.X) && Y.Equals(other.Y);
         }
 
         public override bool Equals(object obj)
